@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
@@ -8,7 +8,12 @@ function App() {
       <header className="">
         <h1>Alimot Akinbode</h1>
       </header>
-      <main>This is my portfolio</main>
+      <main>
+        <section className='hero'></section>
+        <section className='about'></section>
+        <section className='contact'></section>
+        <section className='the'></section>
+      </main>
     </div>
   );
 }
